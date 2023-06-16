@@ -1,0 +1,264 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version":2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#137A7F",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#A0DDFF",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#C1CEFE",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#7189FF",
+					"name": "Quaternary"
+				},
+				{
+					"slug": "quinary",
+					"color": "#624CAB",
+					"name": "Quinary"
+				}
+			]
+		},
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+                    "slug": "system-fonts",
+                    "name": "System Fonts"
+                },
+                {
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-700-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Montserrat\", sans-serif",
+					"name": "Montserrat",
+					"slug": "montserrat"
+				},
+                {
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-v30-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-v30-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-v30-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-v30-latin-700-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Roboto\", sans-serif",
+					"name": "Roboto",
+					"slug": "roboto"
+				},
+                {
+					"fontFace": [
+						{
+							"fontFamily": "Nunito",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/nunito/nunito-v25-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nunito",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/nunito/nunito-v25-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nunito",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/nunito/nunito-v25-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nunito",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/nunito/nunito-v25-latin-700-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Nunito\", sans-serif",
+					"name": "Nunito",
+					"slug": "nunito"
+				},
+                {
+					"fontFace": [
+						{
+							"fontFamily": "Merriweather",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/nunito/nunito-v30-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/nunito/nunito-v30-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/nunito/nunito-v30-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/nunito/nunito-v25-latin-700-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Merriweather\", serif",
+					"name": "Merriweather",
+					"slug": "merriweather"
+				},{
+					"fontFace": [
+						{
+							"fontFamily": "Quintessential",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/quintessential-v20-latin.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Quintessential\", cursive",
+					"name": "Quintessential",
+					"slug": "quintessential"
+				},{
+					"fontFace": [
+						{
+							"fontFamily": "Libre Baskerville",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/libre-baskerville/libre-baskerville-v14-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Libre Baskerville",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/libre-baskerville/libre-baskerville-v14-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Libre Baskerville",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/libre-baskerville/libre-baskerville-v14-latin-700.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Libre Baskerville\", serif",
+					"name": "Libre Baskerville",
+					"slug": "libre-baskerville"
+				}
+               ]
+        }
+    }
+}
